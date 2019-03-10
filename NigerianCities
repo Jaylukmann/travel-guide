@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Africa-West Africa-Nigeria-Nigerian Cities</title>
+</head>
+
+<style>
+	/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color:gold;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding: 13px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a blue background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 13px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: grey;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+	</style>
+
+<body>
+	<h1>Let's Tour Nigeria</h1>
+	
+		<div class="NigerianCities">
+  <div class="dropdown">
+    <button class="dropbtn">Major Nigerian Cities by Size 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="content">
+
+      <b><a href="https://en.wikipedia.org/wiki/Lagos">Lagos</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Kano">Kano</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Ibadan">Ibadan</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Benin">Benin City</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/PortHarcourt">Port Harcourt</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Jos">Jos</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Ilorin">Ilorin</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Abuja">Abuja</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Kaduna">Kaduna</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Enugu">Enugu</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Zaria">Zaria</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Warri">Warri</a></b>
+		<a href="https://en.wikipedia.org/wiki/Maiduguri">Maiduguri</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Ife">Ife</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Aba">Aba</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Bauchi">Bauchi</a></b>
+		<a href="https://en.wikipedia.org/wiki/Akure">Akure</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Abeokuta">Abeokuta</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Uyo">Uyo</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Onitsha">Onitsha</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Sokoto">Sokoto</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Oshogbo">Oshogbo</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Yola">Yola</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Owerri">Owerri</a></b><
+		<b><a href="https://en.wikipedia.org/wiki/Calabar">Calabar</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Umuahia">Umuahia</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Ondo">Ondo</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Minna">Minna</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Lafia">Lafia</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Okenne">Okenne</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Kastina">Kastina</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Nsuka">Nsuka</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Ado-Ekiti">Ado Ekiti</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Akwa">Akwa</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Ogbomoso">Ogbomoso</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Iseyin">Iseyin</a></b>
+		<b><a href="https://en.wikipedia.org/wiki/Mubi">Mubi</a></b>
+		
+    </div>
+  </div> 
+</div>
+
+</body>
+</html>
