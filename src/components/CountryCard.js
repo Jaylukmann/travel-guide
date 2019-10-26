@@ -7,10 +7,10 @@ const CountryCard = props => {
     backgroundSize: "200px auto",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
-    backgroundColor: "white",
+    // backgroundColor: "white",
     cursor: "pointer"
   };
-  return <div style={bcg} className="card" />;
+  return <div style={bcg} className="card">{props.countryData.name}</div>
 };
 
 export default CountryCard;

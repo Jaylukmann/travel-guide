@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/search.css'
 
-const SearchBox = (props) => (
+const SearchBox = ({ search, onSearchChange }) => (
     <div>
         <div className="searchBox pa2">
             <form>
@@ -14,7 +14,7 @@ const SearchBox = (props) => (
                         {
                             display: "block",
                             margin: "auto",
-                            border: "2px solid #a463f2",
+                            border: "1px solid white",
                             borderRadius: "30px",
                             height: "45px",
                             outline: "none"
@@ -22,8 +22,8 @@ const SearchBox = (props) => (
 
                         }
                     }
-                    value={props.search}
-                    onChange={(text) => props.onSearchChange(text)}
+                    value={search}
+                    onChange={(text) => onSearchChange(text)}
                 />
             </form>
         </div>

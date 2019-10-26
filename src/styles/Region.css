@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.region-details {
+    font-family: 'Montserrat', sans-serif;
+}
 
 h2 {
     font-size: 2em;
+    color: white;
+}
+
+.h2black {
+    color: black;
 }
 
 .region {
@@ -16,16 +24,16 @@ h2 {
     /* vertical-align: top; */
 }
 
-.region-card h3 {
+.region-card h3 { 
     cursor: pointer;
 }
 
-.regiontext{
-    font-family: 'Pacifico', cursive;
+.regiontext {
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-
 }
-.list{
+
+.list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -33,3 +41,4 @@ h2 {
     padding: 0;
     margin: 1.1em;
 }
+
